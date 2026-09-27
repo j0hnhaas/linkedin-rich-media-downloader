@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm / JetBrains
+.idea/
+
+# Local LinkedIn exports and downloaded media
+Rich_Media.csv
+linkedin-rich-media/
+manifest.csv
+
+# OS files
+.DS_Store
+Thumbs.db
