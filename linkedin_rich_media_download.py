@@ -62,8 +62,8 @@ CONTENT_TYPE_EXTENSIONS = {
 
 DATE_RE = re.compile(
     r"^You uploaded a (?P<kind>.+?) on "
-    r"(?P<date>[A-Za-z]+ \\d{1,2}, \\d{4}) at "
-    r"(?P<time>\\d{1,2}:\\d{2} [AP]M) \\(GMT\\)$"
+    r"(?P<date>[A-Za-z]+ \d{1,2}, \d{4}) at "
+    r"(?P<time>\d{1,2}:\d{2} [AP]M) \(GMT\)$"
 )
 
 
