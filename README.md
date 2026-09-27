@@ -71,6 +71,21 @@ or:
 
     pip install requests
 
+## Open in PyCharm
+
+1. In PyCharm choose **Get from VCS**.
+2. Paste:
+
+       https://github.com/j0hnhaas/linkedin-rich-media-downloader.git
+
+3. Choose a local project directory and click **Clone**.
+4. Let PyCharm create or select a Python interpreter / virtual environment.
+5. Install the dependency from `requirements.txt` when prompted, or run:
+
+       pip install -r requirements.txt
+
+Keep your personal `Rich_Media.csv` outside the repository or copy it into the project only temporarily. The included `.gitignore` prevents the standard CSV name, downloaded media folder, manifest, PyCharm project files, and virtual environments from being committed accidentally.
+
 ## Usage
 
 Clone or download this repository and run:
